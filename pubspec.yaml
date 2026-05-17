@@ -1,0 +1,43 @@
+name: raktarkezelo
+description: "Raktár Cloud - Egyetemi diplomamunka projekt."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  fl_chart: ^1.2.0
+  simple_barcode_scanner: ^0.6.0
+  firebase_core: ^4.9.0
+  cloud_firestore: ^6.4.1
+  firebase_storage: ^13.4.1
+  intl: ^0.20.2
+  image_picker: ^1.2.2
+  path_provider: ^2.1.5
+  csv: ^8.0.0
+  share_plus: ^10.1.0
+  file_saver: ^0.4.0
+  # file_picker: ^11.0.2
+
+# EZ A RÉSZ OLDJA MEG A 'PLATFORM NOT FOUND' HIBÁT:
+dependency_overrides:
+  file_picker: 11.0.2
+  share_plus: 12.0.2
+  win32: 5.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

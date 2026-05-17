@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "882471268847",
+    "project_id": "raktarapp-24984",
+    "storage_bucket": "raktarapp-24984.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882471268847:android:528692b460539e85c9c61a",
+        "android_client_info": {
+          "package_name": "com.example.raktarkezelo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClJdKUH2wQUh_RbosqVBj4xanf2H0i5jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
