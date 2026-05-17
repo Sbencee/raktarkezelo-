@@ -1,13 +1,13 @@
 # Raktár Cloud – Vállalati Készletirányítási és Bizonylatoló Rendszer
 
-A **Raktár Cloud** egy kritikus üzleti folyamatokat támogató (B2B jellegű) vállalatirányítási modul, amely a fizikai eszközpark digitális transzformációját valósítja meg Flutter és Firebase technológiák segítségével.
+A **Raktár Cloud** egy kritikus üzleti folyamatokat támogató  vállalatirányítási modul, amely a fizikai eszközpark digitális transzformációját valósítja meg Flutter és Firebase technológiák segítségével.
 
 ## Főbb funkciók és Mérnöki Megoldások
 
 * **Hardver-szoftver Integráció (Computer Vision):** Az eszközök azonosítása nem manuális bevitelre épül, hanem a telefon kameráját használó **élő vonalkód- és QR-kód feldolgozó motorra**.
 * **Intelligens Készletmozgási Logika:**
     * **Tranzakció-kezelés:** A bevételezés és kiadás során a rendszer atomi módon frissíti a készletet, rögzíti a mozgást a naplóban és archiválja a bizonylat-adatokat.
-    * **Tömeges SN Parser:** Beépített algoritmus, amely képes nyers szöveges listákból (pl. Excel export) automatikusan kinyerni és validálni az egyedi gyári számokat.
+    **Tömeges SN Parser:** Beépített algoritmus, amely képes nyers szöveges listákból (pl. Excel export) automatikusan kinyerni és validálni az egyedi gyári számokat.
 * **Dinamikus PDF Dokumentum-motor:** Alacsony szintű grafikus rajzolás segítségével az alkalmazás **natív, nyomtatható PDF bizonylatokat** generál a memóriában:
     * *Belső Kiadási Bizonylat* (QR-kóddal ellátott hitelesítő dokumentum)
     * *Átvételi Nyilatkozat* (Személyi felelősségvállaláshoz, jogi záradékkal)
