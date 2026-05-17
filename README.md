@@ -13,8 +13,8 @@ A **Raktár Cloud** egy kritikus üzleti folyamatokat támogató (B2B jellegű) 
     * *Átvételi Nyilatkozat* (Személyi felelősségvállaláshoz, jogi záradékkal)
     * *Bevételi Bizonylat* (Zöld jelzésű, beérkező áru dokumentáció)
 * **Vezetői Analytics & Leltár:** Teljes raktárvagyon-összesítés PDF-ben, amely tartalmazza:
-    * Kategóriánkénti sávdiagramos vizualizációt.
-    * **Pénzügyi modul:** Automatikus teljes készletérték számítás (Ft).
+    ** Kategóriánkénti sávdiagramos vizualizációt.
+    **Pénzügyi modul:** Automatikus teljes készletérték számítás (Ft).
     * **Prediktív hiányjelzés:** [HIÁNY] riasztás a minLimit alá eső kritikus eszközöknél.
 * **Hibrid Adatkezelés:** Valós idejű NoSQL szinkronizáció (Firestore) és dokumentum-alapú archiválás.
 
