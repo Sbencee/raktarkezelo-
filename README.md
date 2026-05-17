@@ -4,7 +4,7 @@ A **Raktár Cloud** egy kritikus üzleti folyamatokat támogató vállalatirány
 
 ## Főbb funkciók és Mérnöki Megoldások
 
-* **Hardver-szoftver Integráció (Computer Vision):** Az eszközök azonosítása nem manuális bevitelre épül, hanem a telefon kameráját használó **élő vonalkód- és QR-kód feldolgozó motorra**.
+* **Hardver-szoftver Integráció (Computer Vision):** Az eszközök azonosítása nem manuális bevitelre épül, hanem a telefon kameráját használó **élő vonalkód  feldolgozó motorra**.
 * **Intelligens Készletmozgási Logika:**
     * **Tranzakció-kezelés:** A bevételezés és kiadás során a rendszer atomi módon frissíti a készletet, rögzíti a mozgást a naplóban és archiválja a bizonylat-adatokat.
     * **Tömeges SN Parser:** Beépített algoritmus, amely képes nyers szöveges listákból (pl. Excel export) automatikusan kinyerni és validálni az egyedi gyári számokat.
